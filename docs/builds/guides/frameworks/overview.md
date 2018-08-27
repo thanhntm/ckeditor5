@@ -1,15 +1,12 @@
 ---
 category: builds-integration-frameworks
 order: 10
+menu-title: Overview
 ---
 
 # Integrating CKEditor 5 with JavaScript frameworks
 
-## Is CKEditor 5 compatible with a framework I use?
-
-We are often asked questions like:
-
-> Is CKEditor 5 compatible with framework XYZ?
+## Is CKEditor 5 compatible with framework XYZ?
 
 Yes. CKEditor 5 is compatible with every JavaScript framework that we have heard of so far. CKEditor 5 is a JavaScript component (a pretty complex one but still) and does not require any uncommon techniques or technologies to be used. Threfore, unless the framework that you use has very untypical limitations, CKEditor 5 is compatible with it.
 
@@ -19,22 +16,22 @@ While CKEditor 5 is compatible with your framework and initializing CKEditor 5 r
 
 When checking how to integrate CKEditor 5 with your framework you can follow these steps:
 
-1. Check whether an [official integration](#official-integrations) exists.
+1. **Check whether an [official integration](#official-integrations) exists.**
 
-	There are two official integrations so far – for {@link react React} and for {@link angular Angular 2+}.
-2. If not, search for community-driven integrations. Most of them are available on [npm](https://www.npmjs.com/).
-3. If not, write your own integration for CKEditor 5.
+	There are two official integrations so far – for {@link builds/guides/frameworks/react React} and for {@link builds/guides/frameworks/angular Angular 2+}.
+2. **If not, search for community-driven integrations.** Most of them are available on [npm](https://www.npmjs.com/).
+3. **If none exists, integrate CKEditor 5 with your framework yourself.**
 
-	CKEditor 5 exposes a {@link basic-api rich JavaScript API} which you can use to {@link basic-api#creating-an-editor create} and {@link basic-api#interacting-with-the-editor control it}.
+	CKEditor 5 exposes a {@link builds/guides/integration/basic-api rich JavaScript API} which you can use to {@link builds/guides/integration/basic-api#creating-an-editor create} and {@link builds/guides/integration/basic-api#interacting-with-the-editor control it}.
 
 ## Official integrations
 
 There are two official integrations so far:
 
-* {@link react CKEditor 5 component for React}
-* {@link angular CKEditor 5 component for Angular 2+}
+* {@link builds/guides/frameworks/react CKEditor 5 component for React}
+* {@link builds/guides/frameworks/angular CKEditor 5 component for Angular 2+}
 
-Refer to their documentation in order to
+Refer to their documentation to learn how to use them.
 
 ## Compatibility with Electron
 
